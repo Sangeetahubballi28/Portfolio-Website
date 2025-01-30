@@ -1,0 +1,250 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Profile Section */
+#profile {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 30px 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#profile img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #4CAF50;
+}
+
+#profile h2 {
+    font-size: 2.2em;
+    color: #333;
+    margin: 15px 0;
+}
+
+#profile p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* About Me Section */
+#about {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 30px 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#about h2 {
+    color: #4CAF50;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+#about p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Skills Section */
+#skills {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 30px 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#skills h2 {
+    color: #4caf50;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 0;
+}
+
+#skills li {
+    background-color: #e7f7e7;
+    color: #333;
+    padding: 12px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#skills li:hover {
+    background-color: #4CAF50;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 30px 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    color: #4CAF50;
+    font-size: 1.6em;
+}
+
+.project p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.project a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.project a:hover {
+    color: #333;
+}
+
+/* Internship Section */
+#internships {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 30px 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.internship {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.internship h3 {
+    color: #4CAF50;
+    font-size: 1.6em;
+}
+
+.internship ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Certifications Section */
+#certifications {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 30px 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.certification {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certification h3 {
+    color: #4CAF50;
+    font-size: 1.6em;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 30px 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#contact h2 {
+    color: #414241;
+    font-size: 1.6em;
+    margin-bottom: 15px;
+}
+
+#contact p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#contact a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px;
+    font-size: 1.2em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
